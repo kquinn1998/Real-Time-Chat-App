@@ -1,0 +1,27 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "A real time chat application using node js.",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kquinn1998/Real-Time-Chat-App.git"
+  },
+  "author": "Kevin Quinn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kquinn1998/Real-Time-Chat-App/issues"
+  },
+  "homepage": "https://github.com/kquinn1998/Real-Time-Chat-App#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
