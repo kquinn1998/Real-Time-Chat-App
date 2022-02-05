@@ -2,7 +2,7 @@
   "name": "chatapp",
   "version": "1.0.0",
   "description": "A real time chat application using node js.",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
     "devStart": "nodemon server.js"
   },
